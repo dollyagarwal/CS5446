@@ -18,8 +18,16 @@ class AbstractState:
 
         self._predicate_roles_dict = {}
 
+        print("Concrete State:", concrete_state)
+
         # Now update the roles of the objects in the provided concrete state.
         self.compute(concrete_state, problem)
+        roles = self.get_roles()
+        for role in roles:
+            print('Get roles:', role)
+        
+        #print('Get Binary role predicates:', self.get_binary_role_predicates())
+        print('Get Arity predicates:', self.get_arity_predicate_dict())
 
     def get_roles(self):
 
@@ -209,3 +217,4 @@ class AbstractState:
                 for atom in arity_atom_dict[arity]:
 
                     self.compute_n_ary_role_count(atom)
+
