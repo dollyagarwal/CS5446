@@ -1,8 +1,7 @@
 # GHN
-Python implementation of Generalized Heuristic Networks
+Python implementation of evaluating Generalized Heuristic Networks
 
-This repo is being updated with new changes (You can refer to the aaai-21 branch for the exact code used for the AAAI-21
-submission). 
+This repo is built on top of https://github.com/AAIR-lab/GHN Pls refer this link if you face any issues in setup.
 
 # Installation
 
@@ -24,50 +23,32 @@ Use the following commands to install the GHN system on an Ubuntu 18.04 machine.
     pip3 install bokeh
     pip3 install psutil
 
-Next from the project root directory,
+Next to built fast-downward, refer https://github.com/AAIR-lab/GHN
 
-    cd bin/fast-downward
-    ./build.py release
+# Experimental Setup
 
-# Reproducing the AAAI-21 experiments
+We performed the Fast training approach mentioned by the authors of the papers. The experiment folder outputs has been zipped and uploaded here as outputs.zip. The trained model m1 can be found in outputs/example.
 
-The GHN system uses YAML config files for supported domains to run the experiments.
-The AAAI-21 YAML files can be found in the experiments/ directory.
+The setup involves a training_directory (outputs/training_data) where the training problem files are kept and a test_directory (blocks3 - block50) where the test files are stored. Note that the domain file and problem file must end with extensions `*.domain.pddl` and `*.problem.pddl`.
 
-Each YAML file consists of several phases which
+For the configuration files on the test files, please take a look at the `block*.yaml` files found in `generalized_learning/benchmarks/blocksworld`.
 
- 1. Generates problem files for training and testing
- 2. Runs baseline solvers FF and FD (and Pyperplan) to solve the test problems.
- 3. Runs the leapfrogging steps for 3 iterations to train GHN leapfrog networks.
- 4. Runs all GHN trained networks on the test data.
-
-These experiments take an average of 12 hours to complete for all phases in a multicore setting.
-
-Use the following command line to run the experiments from the root directory.
+Use the following command line to run the evaluation on a testset folder from the root directory.
 
 python3 generalized_learning.py --base-dir `<directory_where_to_store_results>` --config-file `<path_to_yaml_file>`
 
 #### Example:
 
-To run blocksworld experiments, run the following
+To run blocksworld experiments with problem sets of 3 blocks, run the following
 
-`python3 generalized_learning.py --base-dir ./results --config-file experiments/aaai21/leapfrogs/blocksworld.yaml`
+`python3 generalized_learning.py --base-dir ./outputs --config-file generalized_learning/benchmarks/blocksworld/blocks3.yaml`
 
-# Fast training
+# Results and Evaluation
 
-If you do not wish to run the complete AAAI-21 suite, then the bare minimum required is the `oracle` phases that are present in the YAML files.
-
-The `oracle` solver uses an external solver (FF) to solve the training problems, the `oracle` model then trains a GHN using the solved problems and finally, the `pyperplan oracle solver` uses pyperplan and the learned GHN to solve the test problems. This pipeline takes under 20 mins to complete training in most cases.
-
-The setup involves a training_directory where the training problem files are kept and a test_directory to store the test files. Note that the domain file and problem file must end with extensions `*.domain.pddl` and `*.problem.pddl`.
-
-You can use the `oracle` model and solver from the yaml config files to solve the training problems using FF (without leapfrogging) and train the GHN and then use it to solve the problems in the test directory.
-
-For examples of such configuration files, please take a look at the `example.yaml` files found in `generalized_learning/benchmarks/<domain>`.
-The only change needed in those files is the solver for the test problems with pyperplan instead of our own internal A* implementation. The pyperplan config can be found in the YAML files for the AAAI-21 experiments.
+The solutions of the test files are copied to folder plots/blocks*. The code to process these solution files and generate the plots on various evaluation metrics can be found at plots/Plot_Charts.ipynb The GHN system uses YAML config files for supported domains to run the experiments.
 
 # Using your own data/new domains
-Follow the setup in the Fast training section above to train and use GHNs with your own data.
+Follow the setup in the Fast training section [here] (https://github.com/AAIR-lab/GHN) to train and use GHNs with your own data.
 
 As an additional note, once you have trained a model, you can run pyperplan individually using the sourced version of pyperplan provided in the dependencies/ directory.
 
