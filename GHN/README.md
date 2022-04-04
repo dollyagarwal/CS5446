@@ -48,7 +48,7 @@ To run blocksworld experiments with problem sets of 3 blocks, run the following
 The solutions of the test files are copied to folder `plots/blocks*`. The code to process these solution files and generate the plots on various evaluation metrics can be found at `plots/Plot_Charts.ipynb` 
 
 # Using your own data/new domains
-Follow the setup in the Fast training section [here] (https://github.com/AAIR-lab/GHN) to train and use GHNs with your own data.
+Follow the setup in the Fast training section as mentioned at https://github.com/AAIR-lab/GHN to train and use GHNs with your own data.
 
 As an additional note, once you have trained a model, you can run pyperplan individually using the sourced version of pyperplan provided in the dependencies/ directory.
 
