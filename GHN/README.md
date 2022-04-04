@@ -45,7 +45,7 @@ To run blocksworld experiments with problem sets of 3 blocks, run the following
 
 # Results and Evaluation
 
-The solutions of the test files are copied to folder plots/blocks*. The code to process these solution files and generate the plots on various evaluation metrics can be found at plots/Plot_Charts.ipynb The GHN system uses YAML config files for supported domains to run the experiments.
+The solutions of the test files are copied to folder `plots/blocks*`. The code to process these solution files and generate the plots on various evaluation metrics can be found at `plots/Plot_Charts.ipynb` 
 
 # Using your own data/new domains
 Follow the setup in the Fast training section [here] (https://github.com/AAIR-lab/GHN) to train and use GHNs with your own data.
