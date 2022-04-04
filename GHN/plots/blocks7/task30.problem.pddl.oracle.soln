@@ -1,0 +1,16 @@
+; <magic_json> {"experiment": {"name": null, "id": "20220401124027", "hostname": "ip-172-31-30-100"}, "git": {"sha": "f32935abb2022a72ed555161a6b5dce0660ffb2b", "branch": "main", "is_dirty": true}, "solution": {"plan_length": 14, "tag_types": true, "tag_binary_goals": true, "tag_unary_goals": true, "use_artificial_g": true, "name": "oracle", "is_plan_found": true, "nodes_expanded": 14, "avg_branching_factor": 1.0, "time_taken": "1.27"}, "problem": {"min_blocks": 7, "max_blocks": 7, "blocks": 7, "bin_params": ["blocks"], "name": "bw-7-6874-30", "filepath": "outputs/example/blocks7/task30.problem.pddl", "domain": "blocksworld"}, "algorithm": {"name": "astar", "time_limit": 300.0, "nodes_expanded_limit": Infinity, "heuristic": {"name": "nn_plact", "nn": {"name": "gms", "arch": "keras"}}}}
+
+(unstack b6 b1)
+(putdown b6)
+(unstack b1 b3)
+(stack b1 b6)
+(unstack b3 b2)
+(stack b3 b1)
+(unstack b2 b4)
+(putdown b2)
+(unstack b4 b7)
+(putdown b4)
+(unstack b7 b5)
+(stack b7 b4)
+(pickup b2)
+(stack b2 b7)

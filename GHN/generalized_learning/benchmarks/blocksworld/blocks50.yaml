@@ -1,0 +1,43 @@
+# Sample config file
+# Default keys are
+#   use_mpi
+#   max_threads
+
+
+globals:
+    ignore: True
+    name: None
+
+    config:
+        use_mpi: False
+        chunk_size: 1
+
+    generator:
+        solver: "ff"
+        
+    solver:
+        dir: "blocks50"
+
+phases:
+    - config:
+        name: "example"
+        ignore: False
+
+        phases:    
+            - solver:
+                name: "oracle"
+                type: "astar"    
+                input_dir: "blocks50"
+                heuristic: "nn_plact"
+                model_dir: "m1"
+                model_name: "gms"
+                ignore: False
+                time_limit: 300
+
+            - plotter:
+                name: "plots"
+                input_dir: "blocks50"
+                num_bins: 3
+                bin_filters:
+                    blocks: 50
+                ignore: False
