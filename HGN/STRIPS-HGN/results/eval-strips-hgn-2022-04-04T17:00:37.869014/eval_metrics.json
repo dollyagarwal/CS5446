@@ -1,0 +1,34 @@
+[
+  {
+    "NumberOfSTRIPSProblems": {
+      "value": 100,
+      "unit": "count",
+      "context": {},
+      "timestamp": "2022-04-04 17:00:39.075534"
+    }
+  },
+  {
+    "GenerateSTRIPSProblemsTime": {
+      "value": 1.1905928100459278,
+      "unit": "seconds",
+      "context": {},
+      "timestamp": "2022-04-04 17:00:39.075652"
+    }
+  },
+  {
+    "EvaluateSTRIPSHGNWorkflow.TotalTime": {
+      "value": 57971.20489698899,
+      "unit": "seconds",
+      "context": {},
+      "timestamp": "2022-04-05 09:06:50.280664"
+    }
+  },
+  {
+    "EvaluationDriverMethodTime": {
+      "value": 57972.53876607702,
+      "unit": "seconds",
+      "context": {},
+      "timestamp": "2022-04-05 09:06:50.425879"
+    }
+  }
+]
