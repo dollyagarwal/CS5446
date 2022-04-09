@@ -1,0 +1,1813 @@
+{
+  "configuration": {
+    "heuristics": [
+      "h-max",
+      "strips-hgn"
+    ],
+    "search_algorithm": "a-star",
+    "max_search_time": 300.0,
+    "planner": "pyperplan"
+  },
+  "results": {
+    "bw-50-6176-12": {
+      "h-max": {
+        "nodes_expanded": 408,
+        "plan_length": -1,
+        "heuristic_calls": 2289,
+        "heuristic_val_for_initial_state": 18,
+        "search_time": 301.6533456349862,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 16,
+        "plan_length": -1,
+        "heuristic_calls": 107,
+        "heuristic_val_for_initial_state": 103270190153728.0,
+        "search_time": 300.5523937449907,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-48": {
+      "h-max": {
+        "nodes_expanded": 311,
+        "plan_length": -1,
+        "heuristic_calls": 1539,
+        "heuristic_val_for_initial_state": 16,
+        "search_time": 301.10087559203384,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 16,
+        "plan_length": -1,
+        "heuristic_calls": 95,
+        "heuristic_val_for_initial_state": 92358683131904.0,
+        "search_time": 325.32777285197517,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-19": {
+      "h-max": {
+        "nodes_expanded": 310,
+        "plan_length": -1,
+        "heuristic_calls": 1714,
+        "heuristic_val_for_initial_state": 13,
+        "search_time": 300.8625611240277,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 11,
+        "plan_length": -1,
+        "heuristic_calls": 78,
+        "heuristic_val_for_initial_state": 126339935895552.0,
+        "search_time": 326.42375640402315,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-34": {
+      "h-max": {
+        "nodes_expanded": 446,
+        "plan_length": -1,
+        "heuristic_calls": 1854,
+        "heuristic_val_for_initial_state": 27,
+        "search_time": 300.13095159397926,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 26,
+        "plan_length": -1,
+        "heuristic_calls": 107,
+        "heuristic_val_for_initial_state": 63655232143360.0,
+        "search_time": 315.00262605800526,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-40": {
+      "h-max": {
+        "nodes_expanded": 492,
+        "plan_length": -1,
+        "heuristic_calls": 1633,
+        "heuristic_val_for_initial_state": 36,
+        "search_time": 301.354919349018,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 28,
+        "plan_length": -1,
+        "heuristic_calls": 81,
+        "heuristic_val_for_initial_state": 76437105147904.0,
+        "search_time": 307.6838198459591,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-42": {
+      "h-max": {
+        "nodes_expanded": 285,
+        "plan_length": -1,
+        "heuristic_calls": 1656,
+        "heuristic_val_for_initial_state": 14,
+        "search_time": 301.20739495096495,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 13,
+        "plan_length": -1,
+        "heuristic_calls": 95,
+        "heuristic_val_for_initial_state": 102922054533120.0,
+        "search_time": 318.5663188640028,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-45": {
+      "h-max": {
+        "nodes_expanded": 295,
+        "plan_length": -1,
+        "heuristic_calls": 1712,
+        "heuristic_val_for_initial_state": 22,
+        "search_time": 300.00394208700163,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 14,
+        "plan_length": -1,
+        "heuristic_calls": 95,
+        "heuristic_val_for_initial_state": 105349784797184.0,
+        "search_time": 318.78388634702424,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-50": {
+      "h-max": {
+        "nodes_expanded": 280,
+        "plan_length": -1,
+        "heuristic_calls": 1648,
+        "heuristic_val_for_initial_state": 17,
+        "search_time": 301.45906416903017,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 15,
+        "plan_length": -1,
+        "heuristic_calls": 112,
+        "heuristic_val_for_initial_state": 102879868223488.0,
+        "search_time": 307.25793443399016,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-43": {
+      "h-max": {
+        "nodes_expanded": 272,
+        "plan_length": -1,
+        "heuristic_calls": 1591,
+        "heuristic_val_for_initial_state": 23,
+        "search_time": 300.1758472690126,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 14,
+        "plan_length": -1,
+        "heuristic_calls": 99,
+        "heuristic_val_for_initial_state": 109191398162432.0,
+        "search_time": 304.7677369180019,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-44": {
+      "h-max": {
+        "nodes_expanded": 387,
+        "plan_length": -1,
+        "heuristic_calls": 1548,
+        "heuristic_val_for_initial_state": 24,
+        "search_time": 300.26224806101527,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 23,
+        "plan_length": -1,
+        "heuristic_calls": 105,
+        "heuristic_val_for_initial_state": 71511843012608.0,
+        "search_time": 300.11426310497336,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-41": {
+      "h-max": {
+        "nodes_expanded": 292,
+        "plan_length": -1,
+        "heuristic_calls": 1461,
+        "heuristic_val_for_initial_state": 14,
+        "search_time": 300.1601925060386,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 17,
+        "plan_length": -1,
+        "heuristic_calls": 101,
+        "heuristic_val_for_initial_state": 101854595776512.0,
+        "search_time": 303.3638438669732,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-16": {
+      "h-max": {
+        "nodes_expanded": 206,
+        "plan_length": -1,
+        "heuristic_calls": 1476,
+        "heuristic_val_for_initial_state": 15,
+        "search_time": 300.11150509497384,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 12,
+        "plan_length": -1,
+        "heuristic_calls": 92,
+        "heuristic_val_for_initial_state": 145214320672768.0,
+        "search_time": 301.0947265349678,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-10": {
+      "h-max": {
+        "nodes_expanded": 173,
+        "plan_length": -1,
+        "heuristic_calls": 1379,
+        "heuristic_val_for_initial_state": 12,
+        "search_time": 300.0557822700357,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 11,
+        "plan_length": -1,
+        "heuristic_calls": 100,
+        "heuristic_val_for_initial_state": 73053996318720.0,
+        "search_time": 300.2058988699573,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-24": {
+      "h-max": {
+        "nodes_expanded": 331,
+        "plan_length": -1,
+        "heuristic_calls": 1428,
+        "heuristic_val_for_initial_state": 19,
+        "search_time": 300.12702493101824,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 20,
+        "plan_length": -1,
+        "heuristic_calls": 97,
+        "heuristic_val_for_initial_state": 87754134257664.0,
+        "search_time": 302.165863703005,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-8": {
+      "h-max": {
+        "nodes_expanded": 307,
+        "plan_length": -1,
+        "heuristic_calls": 1453,
+        "heuristic_val_for_initial_state": 25,
+        "search_time": 300.03418936399976,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 20,
+        "plan_length": -1,
+        "heuristic_calls": 102,
+        "heuristic_val_for_initial_state": 107840169574400.0,
+        "search_time": 303.53530165797565,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-49": {
+      "h-max": {
+        "nodes_expanded": 192,
+        "plan_length": -1,
+        "heuristic_calls": 1541,
+        "heuristic_val_for_initial_state": 14,
+        "search_time": 300.5511393560446,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 10,
+        "plan_length": -1,
+        "heuristic_calls": 90,
+        "heuristic_val_for_initial_state": 133835425579008.0,
+        "search_time": 302.39136191201396,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-15": {
+      "h-max": {
+        "nodes_expanded": 217,
+        "plan_length": -1,
+        "heuristic_calls": 1558,
+        "heuristic_val_for_initial_state": 18,
+        "search_time": 300.3832054610248,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 13,
+        "plan_length": -1,
+        "heuristic_calls": 103,
+        "heuristic_val_for_initial_state": 105131722932224.0,
+        "search_time": 303.0481526979711,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-20": {
+      "h-max": {
+        "nodes_expanded": 360,
+        "plan_length": -1,
+        "heuristic_calls": 1704,
+        "heuristic_val_for_initial_state": 20,
+        "search_time": 301.92280134302564,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 16,
+        "plan_length": -1,
+        "heuristic_calls": 95,
+        "heuristic_val_for_initial_state": 86868666351616.0,
+        "search_time": 325.30297108803643,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-9": {
+      "h-max": {
+        "nodes_expanded": 264,
+        "plan_length": -1,
+        "heuristic_calls": 1847,
+        "heuristic_val_for_initial_state": 12,
+        "search_time": 301.55430471600266,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 12,
+        "plan_length": -1,
+        "heuristic_calls": 99,
+        "heuristic_val_for_initial_state": 106495911919616.0,
+        "search_time": 350.1328170390334,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-32": {
+      "h-max": {
+        "nodes_expanded": 237,
+        "plan_length": -1,
+        "heuristic_calls": 1427,
+        "heuristic_val_for_initial_state": 17,
+        "search_time": 300.6681035810034,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 14,
+        "plan_length": -1,
+        "heuristic_calls": 98,
+        "heuristic_val_for_initial_state": 119940635951104.0,
+        "search_time": 319.6387556040427,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-31": {
+      "h-max": {
+        "nodes_expanded": 237,
+        "plan_length": -1,
+        "heuristic_calls": 1420,
+        "heuristic_val_for_initial_state": 14,
+        "search_time": 300.7807704509469,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 13,
+        "plan_length": -1,
+        "heuristic_calls": 94,
+        "heuristic_val_for_initial_state": 101228839174144.0,
+        "search_time": 308.6133948949864,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-27": {
+      "h-max": {
+        "nodes_expanded": 246,
+        "plan_length": -1,
+        "heuristic_calls": 1483,
+        "heuristic_val_for_initial_state": 15,
+        "search_time": 301.44203416403616,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 12,
+        "plan_length": -1,
+        "heuristic_calls": 84,
+        "heuristic_val_for_initial_state": 120438734716928.0,
+        "search_time": 309.73506796901347,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-4": {
+      "h-max": {
+        "nodes_expanded": 181,
+        "plan_length": -1,
+        "heuristic_calls": 1437,
+        "heuristic_val_for_initial_state": 11,
+        "search_time": 300.12191401899327,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 12,
+        "plan_length": -1,
+        "heuristic_calls": 109,
+        "heuristic_val_for_initial_state": 86809207898112.0,
+        "search_time": 337.4704720519949,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-5": {
+      "h-max": {
+        "nodes_expanded": 286,
+        "plan_length": -1,
+        "heuristic_calls": 1434,
+        "heuristic_val_for_initial_state": 17,
+        "search_time": 300.5024073649547,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 15,
+        "plan_length": -1,
+        "heuristic_calls": 89,
+        "heuristic_val_for_initial_state": 99330228748288.0,
+        "search_time": 328.312406165991,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-36": {
+      "h-max": {
+        "nodes_expanded": 278,
+        "plan_length": -1,
+        "heuristic_calls": 1392,
+        "heuristic_val_for_initial_state": 17,
+        "search_time": 300.85625184100354,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 14,
+        "plan_length": -1,
+        "heuristic_calls": 83,
+        "heuristic_val_for_initial_state": 86267085717504.0,
+        "search_time": 313.78852260799613,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-3": {
+      "h-max": {
+        "nodes_expanded": 250,
+        "plan_length": -1,
+        "heuristic_calls": 1506,
+        "heuristic_val_for_initial_state": 16,
+        "search_time": 300.0686964810011,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 14,
+        "plan_length": -1,
+        "heuristic_calls": 98,
+        "heuristic_val_for_initial_state": 105866581770240.0,
+        "search_time": 300.4873190119979,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-22": {
+      "h-max": {
+        "nodes_expanded": 336,
+        "plan_length": -1,
+        "heuristic_calls": 1589,
+        "heuristic_val_for_initial_state": 21,
+        "search_time": 300.1464194179862,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 16,
+        "plan_length": -1,
+        "heuristic_calls": 84,
+        "heuristic_val_for_initial_state": 89310262984704.0,
+        "search_time": 307.345362419961,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-37": {
+      "h-max": {
+        "nodes_expanded": 412,
+        "plan_length": -1,
+        "heuristic_calls": 1927,
+        "heuristic_val_for_initial_state": 20,
+        "search_time": 300.1289664999931,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 15,
+        "plan_length": -1,
+        "heuristic_calls": 77,
+        "heuristic_val_for_initial_state": 92807347830784.0,
+        "search_time": 300.10652783798287,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-25": {
+      "h-max": {
+        "nodes_expanded": 462,
+        "plan_length": -1,
+        "heuristic_calls": 1919,
+        "heuristic_val_for_initial_state": 23,
+        "search_time": 300.299576985999,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 17,
+        "plan_length": -1,
+        "heuristic_calls": 83,
+        "heuristic_val_for_initial_state": 82257381425152.0,
+        "search_time": 300.2178474100074,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-33": {
+      "h-max": {
+        "nodes_expanded": 205,
+        "plan_length": -1,
+        "heuristic_calls": 1728,
+        "heuristic_val_for_initial_state": 14,
+        "search_time": 300.01034963002894,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 9,
+        "plan_length": -1,
+        "heuristic_calls": 88,
+        "heuristic_val_for_initial_state": 88998869467136.0,
+        "search_time": 302.6631434899755,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-29": {
+      "h-max": {
+        "nodes_expanded": 240,
+        "plan_length": -1,
+        "heuristic_calls": 1667,
+        "heuristic_val_for_initial_state": 12,
+        "search_time": 300.12215220800135,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 12,
+        "plan_length": -1,
+        "heuristic_calls": 97,
+        "heuristic_val_for_initial_state": 103044888920064.0,
+        "search_time": 304.6503124599694,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-30": {
+      "h-max": {
+        "nodes_expanded": 184,
+        "plan_length": -1,
+        "heuristic_calls": 1389,
+        "heuristic_val_for_initial_state": 12,
+        "search_time": 300.0126058200258,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 12,
+        "plan_length": -1,
+        "heuristic_calls": 108,
+        "heuristic_val_for_initial_state": 81186021965824.0,
+        "search_time": 306.8977150619612,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-35": {
+      "h-max": {
+        "nodes_expanded": 258,
+        "plan_length": -1,
+        "heuristic_calls": 1535,
+        "heuristic_val_for_initial_state": 21,
+        "search_time": 300.1470154559938,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 17,
+        "plan_length": -1,
+        "heuristic_calls": 108,
+        "heuristic_val_for_initial_state": 118719095242752.0,
+        "search_time": 317.5970754339942,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-11": {
+      "h-max": {
+        "nodes_expanded": 216,
+        "plan_length": -1,
+        "heuristic_calls": 1766,
+        "heuristic_val_for_initial_state": 12,
+        "search_time": 300.5584671560209,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 9,
+        "plan_length": -1,
+        "heuristic_calls": 82,
+        "heuristic_val_for_initial_state": 97081955975168.0,
+        "search_time": 306.55253470601747,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-13": {
+      "h-max": {
+        "nodes_expanded": 309,
+        "plan_length": -1,
+        "heuristic_calls": 1805,
+        "heuristic_val_for_initial_state": 15,
+        "search_time": 300.4364634079975,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 13,
+        "plan_length": -1,
+        "heuristic_calls": 91,
+        "heuristic_val_for_initial_state": 88328217034752.0,
+        "search_time": 337.78837432694854,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-38": {
+      "h-max": {
+        "nodes_expanded": 274,
+        "plan_length": -1,
+        "heuristic_calls": 1625,
+        "heuristic_val_for_initial_state": 23,
+        "search_time": 301.3027826549951,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 12,
+        "plan_length": -1,
+        "heuristic_calls": 84,
+        "heuristic_val_for_initial_state": 121172737916928.0,
+        "search_time": 303.0256465859711,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-46": {
+      "h-max": {
+        "nodes_expanded": 355,
+        "plan_length": -1,
+        "heuristic_calls": 1676,
+        "heuristic_val_for_initial_state": 22,
+        "search_time": 300.48883330397075,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 16,
+        "plan_length": -1,
+        "heuristic_calls": 91,
+        "heuristic_val_for_initial_state": 80764293087232.0,
+        "search_time": 318.1434912480181,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-7": {
+      "h-max": {
+        "nodes_expanded": 323,
+        "plan_length": -1,
+        "heuristic_calls": 1856,
+        "heuristic_val_for_initial_state": 34,
+        "search_time": 301.12612626398914,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 15,
+        "plan_length": -1,
+        "heuristic_calls": 93,
+        "heuristic_val_for_initial_state": 104173894893568.0,
+        "search_time": 302.3673052749946,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-26": {
+      "h-max": {
+        "nodes_expanded": 282,
+        "plan_length": -1,
+        "heuristic_calls": 1655,
+        "heuristic_val_for_initial_state": 23,
+        "search_time": 300.5469505030196,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 13,
+        "plan_length": -1,
+        "heuristic_calls": 95,
+        "heuristic_val_for_initial_state": 97889560821760.0,
+        "search_time": 349.54556590801803,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-21": {
+      "h-max": {
+        "nodes_expanded": 567,
+        "plan_length": -1,
+        "heuristic_calls": 1697,
+        "heuristic_val_for_initial_state": 26,
+        "search_time": 300.3852921790094,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 23,
+        "plan_length": -1,
+        "heuristic_calls": 89,
+        "heuristic_val_for_initial_state": 66515344818176.0,
+        "search_time": 306.27064872096526,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-28": {
+      "h-max": {
+        "nodes_expanded": 242,
+        "plan_length": -1,
+        "heuristic_calls": 1961,
+        "heuristic_val_for_initial_state": 19,
+        "search_time": 302.1092309130472,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 10,
+        "plan_length": -1,
+        "heuristic_calls": 90,
+        "heuristic_val_for_initial_state": 91109325799424.0,
+        "search_time": 329.12363594403723,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-2": {
+      "h-max": {
+        "nodes_expanded": 263,
+        "plan_length": -1,
+        "heuristic_calls": 1862,
+        "heuristic_val_for_initial_state": 17,
+        "search_time": 301.07306777202757,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 12,
+        "plan_length": -1,
+        "heuristic_calls": 98,
+        "heuristic_val_for_initial_state": 93403408760832.0,
+        "search_time": 315.5790617709863,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-1": {
+      "h-max": {
+        "nodes_expanded": 393,
+        "plan_length": -1,
+        "heuristic_calls": 1959,
+        "heuristic_val_for_initial_state": 15,
+        "search_time": 300.13918353198096,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 14,
+        "plan_length": -1,
+        "heuristic_calls": 83,
+        "heuristic_val_for_initial_state": 110784487096320.0,
+        "search_time": 303.66028286202345,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-18": {
+      "h-max": {
+        "nodes_expanded": 256,
+        "plan_length": -1,
+        "heuristic_calls": 1814,
+        "heuristic_val_for_initial_state": 24,
+        "search_time": 300.0256996570388,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 12,
+        "plan_length": -1,
+        "heuristic_calls": 94,
+        "heuristic_val_for_initial_state": 94261227814912.0,
+        "search_time": 301.5688058739761,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-39": {
+      "h-max": {
+        "nodes_expanded": 230,
+        "plan_length": -1,
+        "heuristic_calls": 1843,
+        "heuristic_val_for_initial_state": 28,
+        "search_time": 300.4160090619698,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 11,
+        "plan_length": -1,
+        "heuristic_calls": 96,
+        "heuristic_val_for_initial_state": 133874826870784.0,
+        "search_time": 303.1018141999957,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-47": {
+      "h-max": {
+        "nodes_expanded": 161,
+        "plan_length": -1,
+        "heuristic_calls": 1535,
+        "heuristic_val_for_initial_state": 13,
+        "search_time": 300.32161692000227,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 10,
+        "plan_length": -1,
+        "heuristic_calls": 109,
+        "heuristic_val_for_initial_state": 88059311816704.0,
+        "search_time": 307.165971370996,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-6": {
+      "h-max": {
+        "nodes_expanded": 235,
+        "plan_length": -1,
+        "heuristic_calls": 1743,
+        "heuristic_val_for_initial_state": 11,
+        "search_time": 300.1043837320176,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 10,
+        "plan_length": -1,
+        "heuristic_calls": 89,
+        "heuristic_val_for_initial_state": 82175005294592.0,
+        "search_time": 301.80029992602067,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-14": {
+      "h-max": {
+        "nodes_expanded": 297,
+        "plan_length": -1,
+        "heuristic_calls": 1757,
+        "heuristic_val_for_initial_state": 15,
+        "search_time": 300.1587466659839,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 11,
+        "plan_length": -1,
+        "heuristic_calls": 80,
+        "heuristic_val_for_initial_state": 110894629519360.0,
+        "search_time": 303.6343498160131,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-23": {
+      "h-max": {
+        "nodes_expanded": 313,
+        "plan_length": -1,
+        "heuristic_calls": 1826,
+        "heuristic_val_for_initial_state": 20,
+        "search_time": 300.4995130620082,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 12,
+        "plan_length": -1,
+        "heuristic_calls": 83,
+        "heuristic_val_for_initial_state": 103258278330368.0,
+        "search_time": 300.84055161103606,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-50-6176-17": {
+      "h-max": {
+        "nodes_expanded": 309,
+        "plan_length": -1,
+        "heuristic_calls": 1813,
+        "heuristic_val_for_initial_state": 13,
+        "search_time": 300.0050221729907,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 11,
+        "plan_length": -1,
+        "heuristic_calls": 77,
+        "heuristic_val_for_initial_state": 106793422290944.0,
+        "search_time": 307.36564794095466,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-12": {
+      "h-max": {
+        "nodes_expanded": 6937,
+        "plan_length": -1,
+        "heuristic_calls": 24278,
+        "heuristic_val_for_initial_state": 7,
+        "search_time": 300.04874978394946,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 64,
+        "plan_length": -1,
+        "heuristic_calls": 281,
+        "heuristic_val_for_initial_state": 36.2139892578125,
+        "search_time": 303.6141288730432,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-48": {
+      "h-max": {
+        "nodes_expanded": 7304,
+        "plan_length": -1,
+        "heuristic_calls": 23820,
+        "heuristic_val_for_initial_state": 6,
+        "search_time": 300.0323618770344,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 53,
+        "plan_length": -1,
+        "heuristic_calls": 265,
+        "heuristic_val_for_initial_state": 27.276317596435547,
+        "search_time": 302.96236845402746,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-19": {
+      "h-max": {
+        "nodes_expanded": 7524,
+        "plan_length": -1,
+        "heuristic_calls": 22443,
+        "heuristic_val_for_initial_state": 14,
+        "search_time": 300.0098366169841,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 174,
+        "plan_length": -1,
+        "heuristic_calls": 501,
+        "heuristic_val_for_initial_state": 38.48677062988281,
+        "search_time": 303.1391468369984,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-34": {
+      "h-max": {
+        "nodes_expanded": 7593,
+        "plan_length": -1,
+        "heuristic_calls": 19887,
+        "heuristic_val_for_initial_state": 8,
+        "search_time": 300.02217556600226,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 137,
+        "plan_length": -1,
+        "heuristic_calls": 597,
+        "heuristic_val_for_initial_state": 36.407440185546875,
+        "search_time": 300.58237729303073,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-40": {
+      "h-max": {
+        "nodes_expanded": 6852,
+        "plan_length": -1,
+        "heuristic_calls": 20330,
+        "heuristic_val_for_initial_state": 9,
+        "search_time": 300.0023644180037,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 93,
+        "plan_length": -1,
+        "heuristic_calls": 337,
+        "heuristic_val_for_initial_state": 44.22003936767578,
+        "search_time": 301.08513450296596,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-42": {
+      "h-max": {
+        "nodes_expanded": 5292,
+        "plan_length": -1,
+        "heuristic_calls": 22136,
+        "heuristic_val_for_initial_state": 6,
+        "search_time": 300.01647183997557,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 47,
+        "plan_length": -1,
+        "heuristic_calls": 317,
+        "heuristic_val_for_initial_state": 31.227802276611328,
+        "search_time": 306.8122734859935,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-45": {
+      "h-max": {
+        "nodes_expanded": 7549,
+        "plan_length": -1,
+        "heuristic_calls": 23177,
+        "heuristic_val_for_initial_state": 7,
+        "search_time": 300.0092663510004,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 99,
+        "plan_length": -1,
+        "heuristic_calls": 388,
+        "heuristic_val_for_initial_state": 34.483070373535156,
+        "search_time": 307.1203525339952,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-50": {
+      "h-max": {
+        "nodes_expanded": 5659,
+        "plan_length": -1,
+        "heuristic_calls": 19145,
+        "heuristic_val_for_initial_state": 5,
+        "search_time": 300.04445546201896,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 76,
+        "plan_length": -1,
+        "heuristic_calls": 361,
+        "heuristic_val_for_initial_state": 38.06315612792969,
+        "search_time": 310.71575872797985,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-43": {
+      "h-max": {
+        "nodes_expanded": 7655,
+        "plan_length": -1,
+        "heuristic_calls": 22112,
+        "heuristic_val_for_initial_state": 11,
+        "search_time": 300.09366849897197,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 75,
+        "plan_length": -1,
+        "heuristic_calls": 334,
+        "heuristic_val_for_initial_state": 34.00239562988281,
+        "search_time": 307.12470908102114,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-44": {
+      "h-max": {
+        "nodes_expanded": 8351,
+        "plan_length": -1,
+        "heuristic_calls": 23145,
+        "heuristic_val_for_initial_state": 15,
+        "search_time": 300.02877885400085,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 118,
+        "plan_length": -1,
+        "heuristic_calls": 336,
+        "heuristic_val_for_initial_state": 38.61286544799805,
+        "search_time": 303.1768982540234,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-41": {
+      "h-max": {
+        "nodes_expanded": 4932,
+        "plan_length": -1,
+        "heuristic_calls": 22147,
+        "heuristic_val_for_initial_state": 7,
+        "search_time": 300.0439127329737,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 58,
+        "plan_length": -1,
+        "heuristic_calls": 362,
+        "heuristic_val_for_initial_state": 34.85914611816406,
+        "search_time": 301.3031571999891,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-16": {
+      "h-max": {
+        "nodes_expanded": 7229,
+        "plan_length": -1,
+        "heuristic_calls": 22123,
+        "heuristic_val_for_initial_state": 7,
+        "search_time": 300.0268951129983,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 69,
+        "plan_length": -1,
+        "heuristic_calls": 361,
+        "heuristic_val_for_initial_state": 36.130001068115234,
+        "search_time": 300.79526222200366,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-10": {
+      "h-max": {
+        "nodes_expanded": 6185,
+        "plan_length": -1,
+        "heuristic_calls": 21360,
+        "heuristic_val_for_initial_state": 6,
+        "search_time": 300.0681398839806,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 80,
+        "plan_length": -1,
+        "heuristic_calls": 500,
+        "heuristic_val_for_initial_state": 38.994789123535156,
+        "search_time": 300.50914620101685,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-24": {
+      "h-max": {
+        "nodes_expanded": 6356,
+        "plan_length": -1,
+        "heuristic_calls": 20966,
+        "heuristic_val_for_initial_state": 9,
+        "search_time": 300.1030278329854,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 87,
+        "plan_length": -1,
+        "heuristic_calls": 338,
+        "heuristic_val_for_initial_state": 35.75825881958008,
+        "search_time": 304.82677325600525,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-8": {
+      "h-max": {
+        "nodes_expanded": 8162,
+        "plan_length": -1,
+        "heuristic_calls": 22181,
+        "heuristic_val_for_initial_state": 16,
+        "search_time": 300.0368474829593,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 149,
+        "plan_length": -1,
+        "heuristic_calls": 423,
+        "heuristic_val_for_initial_state": 43.38908386230469,
+        "search_time": 300.71511094196467,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-49": {
+      "h-max": {
+        "nodes_expanded": 6913,
+        "plan_length": -1,
+        "heuristic_calls": 23763,
+        "heuristic_val_for_initial_state": 6,
+        "search_time": 300.01099155202974,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 81,
+        "plan_length": -1,
+        "heuristic_calls": 383,
+        "heuristic_val_for_initial_state": 37.85748291015625,
+        "search_time": 311.59264641301706,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-15": {
+      "h-max": {
+        "nodes_expanded": 8486,
+        "plan_length": -1,
+        "heuristic_calls": 23865,
+        "heuristic_val_for_initial_state": 14,
+        "search_time": 300.0038216149551,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 156,
+        "plan_length": -1,
+        "heuristic_calls": 433,
+        "heuristic_val_for_initial_state": 36.114402770996094,
+        "search_time": 300.9361154490034,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-20": {
+      "h-max": {
+        "nodes_expanded": 8006,
+        "plan_length": -1,
+        "heuristic_calls": 24278,
+        "heuristic_val_for_initial_state": 10,
+        "search_time": 300.07474033604376,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 77,
+        "plan_length": -1,
+        "heuristic_calls": 378,
+        "heuristic_val_for_initial_state": 34.97854995727539,
+        "search_time": 302.4578808840015,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-9": {
+      "h-max": {
+        "nodes_expanded": 7591,
+        "plan_length": -1,
+        "heuristic_calls": 22858,
+        "heuristic_val_for_initial_state": 7,
+        "search_time": 300.042066487018,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 75,
+        "plan_length": -1,
+        "heuristic_calls": 404,
+        "heuristic_val_for_initial_state": 33.66489028930664,
+        "search_time": 300.3981517640059,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-32": {
+      "h-max": {
+        "nodes_expanded": 7081,
+        "plan_length": -1,
+        "heuristic_calls": 24229,
+        "heuristic_val_for_initial_state": 6,
+        "search_time": 300.03485020896187,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 65,
+        "plan_length": -1,
+        "heuristic_calls": 361,
+        "heuristic_val_for_initial_state": 35.645263671875,
+        "search_time": 309.8257037940202,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-31": {
+      "h-max": {
+        "nodes_expanded": 6961,
+        "plan_length": -1,
+        "heuristic_calls": 21211,
+        "heuristic_val_for_initial_state": 8,
+        "search_time": 300.0097344389651,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 81,
+        "plan_length": -1,
+        "heuristic_calls": 341,
+        "heuristic_val_for_initial_state": 38.143821716308594,
+        "search_time": 300.84909685194725,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-27": {
+      "h-max": {
+        "nodes_expanded": 5524,
+        "plan_length": -1,
+        "heuristic_calls": 20606,
+        "heuristic_val_for_initial_state": 11,
+        "search_time": 300.0499986149953,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 93,
+        "plan_length": -1,
+        "heuristic_calls": 417,
+        "heuristic_val_for_initial_state": 34.421905517578125,
+        "search_time": 301.59732915699715,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-4": {
+      "h-max": {
+        "nodes_expanded": 5945,
+        "plan_length": -1,
+        "heuristic_calls": 20406,
+        "heuristic_val_for_initial_state": 10,
+        "search_time": 300.03098184400005,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 77,
+        "plan_length": -1,
+        "heuristic_calls": 417,
+        "heuristic_val_for_initial_state": 34.5245361328125,
+        "search_time": 306.99865889403736,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-5": {
+      "h-max": {
+        "nodes_expanded": 6373,
+        "plan_length": -1,
+        "heuristic_calls": 20512,
+        "heuristic_val_for_initial_state": 8,
+        "search_time": 300.0285358490073,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 96,
+        "plan_length": -1,
+        "heuristic_calls": 412,
+        "heuristic_val_for_initial_state": 39.03355407714844,
+        "search_time": 307.1237747169798,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-36": {
+      "h-max": {
+        "nodes_expanded": 7290,
+        "plan_length": -1,
+        "heuristic_calls": 20228,
+        "heuristic_val_for_initial_state": 15,
+        "search_time": 300.04080819903174,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 143,
+        "plan_length": -1,
+        "heuristic_calls": 449,
+        "heuristic_val_for_initial_state": 40.45819854736328,
+        "search_time": 303.5311100590043,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-3": {
+      "h-max": {
+        "nodes_expanded": 6214,
+        "plan_length": -1,
+        "heuristic_calls": 20695,
+        "heuristic_val_for_initial_state": 10,
+        "search_time": 300.0770516769844,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 97,
+        "plan_length": -1,
+        "heuristic_calls": 467,
+        "heuristic_val_for_initial_state": 35.05523681640625,
+        "search_time": 303.796081056993,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-22": {
+      "h-max": {
+        "nodes_expanded": 5981,
+        "plan_length": -1,
+        "heuristic_calls": 20055,
+        "heuristic_val_for_initial_state": 11,
+        "search_time": 301.4879040879896,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 84,
+        "plan_length": -1,
+        "heuristic_calls": 361,
+        "heuristic_val_for_initial_state": 39.56787872314453,
+        "search_time": 300.0127425910323,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-37": {
+      "h-max": {
+        "nodes_expanded": 5705,
+        "plan_length": -1,
+        "heuristic_calls": 19237,
+        "heuristic_val_for_initial_state": 8,
+        "search_time": 300.0176377000171,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 90,
+        "plan_length": -1,
+        "heuristic_calls": 466,
+        "heuristic_val_for_initial_state": 36.77925109863281,
+        "search_time": 307.4633619119995,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-25": {
+      "h-max": {
+        "nodes_expanded": 5859,
+        "plan_length": -1,
+        "heuristic_calls": 20552,
+        "heuristic_val_for_initial_state": 6,
+        "search_time": 300.10195795603795,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 83,
+        "plan_length": -1,
+        "heuristic_calls": 445,
+        "heuristic_val_for_initial_state": 33.32335662841797,
+        "search_time": 301.37085131101776,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-33": {
+      "h-max": {
+        "nodes_expanded": 8600,
+        "plan_length": -1,
+        "heuristic_calls": 24241,
+        "heuristic_val_for_initial_state": 10,
+        "search_time": 300.03100691898726,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 72,
+        "plan_length": -1,
+        "heuristic_calls": 343,
+        "heuristic_val_for_initial_state": 38.57518768310547,
+        "search_time": 305.85829303297214,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-29": {
+      "h-max": {
+        "nodes_expanded": 4325,
+        "plan_length": -1,
+        "heuristic_calls": 21992,
+        "heuristic_val_for_initial_state": 5,
+        "search_time": 300.01113403995987,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 55,
+        "plan_length": -1,
+        "heuristic_calls": 408,
+        "heuristic_val_for_initial_state": 32.21662521362305,
+        "search_time": 306.6747467709938,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-30": {
+      "h-max": {
+        "nodes_expanded": 6076,
+        "plan_length": -1,
+        "heuristic_calls": 21865,
+        "heuristic_val_for_initial_state": 6,
+        "search_time": 300.02701610600343,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 105,
+        "plan_length": -1,
+        "heuristic_calls": 504,
+        "heuristic_val_for_initial_state": 33.1346321105957,
+        "search_time": 308.29257746302756,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-35": {
+      "h-max": {
+        "nodes_expanded": 5942,
+        "plan_length": -1,
+        "heuristic_calls": 20271,
+        "heuristic_val_for_initial_state": 7,
+        "search_time": 300.0207404650282,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 78,
+        "plan_length": -1,
+        "heuristic_calls": 402,
+        "heuristic_val_for_initial_state": 33.915836334228516,
+        "search_time": 300.58644181501586,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-11": {
+      "h-max": {
+        "nodes_expanded": 6021,
+        "plan_length": -1,
+        "heuristic_calls": 19721,
+        "heuristic_val_for_initial_state": 9,
+        "search_time": 300.09195558400825,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 71,
+        "plan_length": -1,
+        "heuristic_calls": 391,
+        "heuristic_val_for_initial_state": 38.11088180541992,
+        "search_time": 303.7576187339728,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-13": {
+      "h-max": {
+        "nodes_expanded": 6406,
+        "plan_length": -1,
+        "heuristic_calls": 20987,
+        "heuristic_val_for_initial_state": 7,
+        "search_time": 300.0446350990096,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 85,
+        "plan_length": -1,
+        "heuristic_calls": 380,
+        "heuristic_val_for_initial_state": 36.474586486816406,
+        "search_time": 300.86408488295274,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-38": {
+      "h-max": {
+        "nodes_expanded": 7222,
+        "plan_length": -1,
+        "heuristic_calls": 21145,
+        "heuristic_val_for_initial_state": 8,
+        "search_time": 300.0608104649582,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 77,
+        "plan_length": -1,
+        "heuristic_calls": 358,
+        "heuristic_val_for_initial_state": 35.01502227783203,
+        "search_time": 301.27074706199346,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-46": {
+      "h-max": {
+        "nodes_expanded": 7342,
+        "plan_length": -1,
+        "heuristic_calls": 25282,
+        "heuristic_val_for_initial_state": 8,
+        "search_time": 300.0029646680341,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 86,
+        "plan_length": -1,
+        "heuristic_calls": 444,
+        "heuristic_val_for_initial_state": 31.95224380493164,
+        "search_time": 305.47282910195645,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-7": {
+      "h-max": {
+        "nodes_expanded": 10096,
+        "plan_length": -1,
+        "heuristic_calls": 38697,
+        "heuristic_val_for_initial_state": 5,
+        "search_time": 300.0074592810124,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 54,
+        "plan_length": -1,
+        "heuristic_calls": 323,
+        "heuristic_val_for_initial_state": 33.73567581176758,
+        "search_time": 300.2695285580121,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-26": {
+      "h-max": {
+        "nodes_expanded": 11414,
+        "plan_length": -1,
+        "heuristic_calls": 39234,
+        "heuristic_val_for_initial_state": 6,
+        "search_time": 300.0199452850502,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 55,
+        "plan_length": -1,
+        "heuristic_calls": 299,
+        "heuristic_val_for_initial_state": 33.636451721191406,
+        "search_time": 302.01669743901584,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-21": {
+      "h-max": {
+        "nodes_expanded": 13049,
+        "plan_length": -1,
+        "heuristic_calls": 38974,
+        "heuristic_val_for_initial_state": 9,
+        "search_time": 300.0314974759822,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 89,
+        "plan_length": -1,
+        "heuristic_calls": 315,
+        "heuristic_val_for_initial_state": 34.210208892822266,
+        "search_time": 300.00947431102395,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-28": {
+      "h-max": {
+        "nodes_expanded": 12727,
+        "plan_length": -1,
+        "heuristic_calls": 38275,
+        "heuristic_val_for_initial_state": 13,
+        "search_time": 300.0332389770192,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 67,
+        "plan_length": -1,
+        "heuristic_calls": 303,
+        "heuristic_val_for_initial_state": 38.998931884765625,
+        "search_time": 301.16110193601344,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-2": {
+      "h-max": {
+        "nodes_expanded": 13040,
+        "plan_length": -1,
+        "heuristic_calls": 39087,
+        "heuristic_val_for_initial_state": 8,
+        "search_time": 300.00499862997094,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 103,
+        "plan_length": -1,
+        "heuristic_calls": 352,
+        "heuristic_val_for_initial_state": 39.60041809082031,
+        "search_time": 302.05281303898664,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-1": {
+      "h-max": {
+        "nodes_expanded": 12040,
+        "plan_length": -1,
+        "heuristic_calls": 38906,
+        "heuristic_val_for_initial_state": 10,
+        "search_time": 300.01317890395876,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 65,
+        "plan_length": -1,
+        "heuristic_calls": 299,
+        "heuristic_val_for_initial_state": 39.095252990722656,
+        "search_time": 300.6808692039922,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-18": {
+      "h-max": {
+        "nodes_expanded": 13391,
+        "plan_length": -1,
+        "heuristic_calls": 37978,
+        "heuristic_val_for_initial_state": 9,
+        "search_time": 300.05624858802184,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 59,
+        "plan_length": -1,
+        "heuristic_calls": 297,
+        "heuristic_val_for_initial_state": 39.610069274902344,
+        "search_time": 301.3356139580137,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-39": {
+      "h-max": {
+        "nodes_expanded": 12799,
+        "plan_length": -1,
+        "heuristic_calls": 37350,
+        "heuristic_val_for_initial_state": 8,
+        "search_time": 300.0081290740054,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 499,
+        "plan_length": -1,
+        "heuristic_calls": 1933,
+        "heuristic_val_for_initial_state": 36.97535705566406,
+        "search_time": 300.0895438879961,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-47": {
+      "h-max": {
+        "nodes_expanded": 20148,
+        "plan_length": -1,
+        "heuristic_calls": 73821,
+        "heuristic_val_for_initial_state": 6,
+        "search_time": 300.0049984459765,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 782,
+        "plan_length": -1,
+        "heuristic_calls": 4462,
+        "heuristic_val_for_initial_state": 34.31175994873047,
+        "search_time": 300.1453610880417,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-6": {
+      "h-max": {
+        "nodes_expanded": 24078,
+        "plan_length": -1,
+        "heuristic_calls": 76074,
+        "heuristic_val_for_initial_state": 10,
+        "search_time": 300.0064534719568,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 1241,
+        "plan_length": -1,
+        "heuristic_calls": 4455,
+        "heuristic_val_for_initial_state": 36.38999557495117,
+        "search_time": 300.04129906301387,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-14": {
+      "h-max": {
+        "nodes_expanded": 23497,
+        "plan_length": -1,
+        "heuristic_calls": 75556,
+        "heuristic_val_for_initial_state": 6,
+        "search_time": 300.00787448399933,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 980,
+        "plan_length": -1,
+        "heuristic_calls": 4458,
+        "heuristic_val_for_initial_state": 33.81707000732422,
+        "search_time": 300.0093554669875,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-23": {
+      "h-max": {
+        "nodes_expanded": 26517,
+        "plan_length": -1,
+        "heuristic_calls": 74709,
+        "heuristic_val_for_initial_state": 9,
+        "search_time": 300.0044870300335,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 1099,
+        "plan_length": -1,
+        "heuristic_calls": 4456,
+        "heuristic_val_for_initial_state": 39.23231506347656,
+        "search_time": 300.01778069196735,
+        "search_state": "timed_out"
+      }
+    },
+    "bw-15-4678-17": {
+      "h-max": {
+        "nodes_expanded": 23994,
+        "plan_length": -1,
+        "heuristic_calls": 73302,
+        "heuristic_val_for_initial_state": 12,
+        "search_time": 300.0003115099971,
+        "search_state": "timed_out"
+      },
+      "strips-hgn": {
+        "nodes_expanded": 870,
+        "plan_length": -1,
+        "heuristic_calls": 4460,
+        "heuristic_val_for_initial_state": 36.561256408691406,
+        "search_time": 300.13166055700276,
+        "search_state": "timed_out"
+      }
+    }
+  }
+}
